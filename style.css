@@ -9,7 +9,7 @@ body{
     padding: 0px 15px 0 15px;
     min-width: 320px;
     max-width: 1024px;
-
+         max-height: 768px;
     }
     img{
         width: 78px;
