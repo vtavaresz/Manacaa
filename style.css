@@ -102,5 +102,5 @@ label {
     display: flex;
     justify-content: center;
     width: 100px;
-color:hsl(150, 70%, 39%);
+    color:hsl(150, 70%, 39%);
 }
