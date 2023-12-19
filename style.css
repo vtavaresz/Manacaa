@@ -6,7 +6,9 @@ body{
     margin-right:25%;
     border: 1px solid hsl(150, 70%, 39%);
     margin-bottom: 5px;
-    padding: 20px 15px 0 15px;
+    padding: 0px 15px 0 15px;
+         margin: auto;
+         
     }
     img{
         width: 100px;
