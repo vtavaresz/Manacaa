@@ -8,15 +8,13 @@ body{
     margin-bottom: 5px;
     padding: 0px 15px 0 15px;
          margin: auto;
+         background-color: #f3f1f1;
          
     }
     img{
-        width: 100px;
-        margin-top: 1%;
-        margin-left: -1%;
-       
-
-
+    width: 120px;
+    height: 120px;
+      
     }
     ::placeholder{
           color: hsl(150, 70%, 39%);
@@ -71,10 +69,11 @@ p
     color: hsl(150, 70%, 39%);
 }
 #manaca{
-
-    margin-left: 23%;
-    margin-top: -10%;
-
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
  
 }
 #data{
@@ -86,11 +85,47 @@ label {
     padding: 5px;
 
 }
-#titulo{
-    color:hsl(150, 70%, 39%);
 
-}
+
 #b{
    font-style: italic;
 }
 
+#links{
+    flex-direction: column;
+}
+
+#instagram{
+ 
+   color: hsl(150, 70%, 39%);;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-left: 1130px;
+    border: none;
+box-sizing: border-box;
+    background: #f3f1f1;
+    font-size: 30px;
+    cursor: pointer;
+   
+}
+#whatsapp{
+    color: hsl(150, 70%, 39%);;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-left: 1130px;
+    border: none;
+box-sizing: border-box;
+    background: #f3f1f1;
+    font-size: 30px;
+    cursor: pointer;  
+}
+
+#Pacote{
+    width: 97%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #F5F5F5;
+    color: hsl(150, 70%, 39%);
+}
