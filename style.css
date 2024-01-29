@@ -129,3 +129,12 @@ box-sizing: border-box;
     background: #F5F5F5;
     color: hsl(150, 70%, 39%);
 }
+
+@media(max-width:768px){
+    #sitetodo{
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        margin-bottom: 10px;
+    }
+}
